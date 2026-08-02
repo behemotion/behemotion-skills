@@ -19,7 +19,7 @@ come back).
 
 ## Connectivity
 
-**MCP surface (preferred):** the behemcp gateway (or a direct `behecheck-mcp`
+**MCP surface (preferred):** the beherouter gateway (or a direct `behecheck-mcp`
 server) exposes these tools, all returning SARIF-shaped JSON:
 
 | Tool | Purpose |
