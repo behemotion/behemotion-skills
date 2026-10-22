@@ -13,6 +13,7 @@ Each top-level folder is one skill: a `SKILL.md` with frontmatter (`name`, `desc
 | [`land-clean/`](./land-clean/SKILL.md) | Land finished work on `main`: takes uncommitted changes, stashes and/or the current branch as-is, writes proper commits, strips AI-agent attribution from messages and content, merges and pushes. Prefers the latest work on conflicts. |
 | [`deploy/`](./deploy/SKILL.md) | Generic deploy driver: reads the current repo's root `DEPLOY.md` runbook and executes it with pre-flight, verification and a report. Stops when the repo has no `DEPLOY.md`. A repo can replace it with its own skill marked `<!-- beheskills: local -->`. |
 | [`behecheck/`](./behecheck/SKILL.md) | Per-layer skill for behecheck, the BEHEMOTION hybrid code-review layer: run it over a git range, paths or raw code via CLI or MCP and read the SARIF v2.1.0 findings. |
+| [`behesid/`](./behesid/SKILL.md) | Per-layer skill for behesid, the BEHEMOTION system-dynamics simulation layer: build, check and change stock-and-flow models through changesets, run and compare simulations (ensembles, calibration, sensitivity, loop dominance), and give a model a scenario surface (`scenario-schema`, `scenario-validate`) via CLI or MCP. |
 
 ## Installation
 
